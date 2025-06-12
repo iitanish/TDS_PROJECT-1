@@ -1,50 +1,34 @@
-# TDS Project 1
+# 🤖 TDS Virtual TA – AI Query Answering Assistant
 
-## Overview
+[![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)](https://www.python.org/)
+[![Flask](https://img.shields.io/badge/Flask-Web_Framework-lightgrey?logo=flask)](https://flask.palletsprojects.com/)
+[![Deploy to Vercel](https://img.shields.io/badge/Deploy-Vercel-black?logo=vercel)](https://vercel.com/)
+[![Promptfoo Tested](https://img.shields.io/badge/Tested_with-Promptfoo-orange?logo=openai)](https://promptfoo.dev/)
 
-This project is a part of the TDS (Technology/Data/Software) curriculum. It aims to demonstrate core concepts and practical skills in software development.
+> A virtual teaching assistant that responds to course-related questions and links helpful resources, built for IITM B.Sc. Tools in Data Science.
 
-## Features
+---
 
-- Modular code structure
-- Clear documentation
-- Easy to set up and run
+## 🔍 About the Project
 
-## Getting Started
+**TDS Virtual TA** is a backend service that mimics a teaching assistant (TA) by answering questions related to the _Tools in Data Science_ (TDS) course. It supports natural language queries and optionally image input, returning answers and reference links.
 
-1. **Clone the repository:**
-    ```bash
-    git clone https://github.com/your-username/TDS_Project-1.git
-    cd TDS_Project-1
-    ```
+This project was built and deployed by **Anish Sharma**  
+🎓 _22BCY10018, B.Tech Cyber Security @ VIT Bhopal_  
+📘 _B.Sc. Data Science @ IIT Madras_  
+🔗 [GitHub Profile](https://github.com/iitanish)
 
-2. **Install dependencies:**
-    ```bash
-    # Example for Python projects
-    pip install -r requirements.txt
-    ```
+---
 
-3. **Run the project:**
-    ```bash
-    # Example command
-    python main.py
-    ```
+## 🌐 Live Endpoint
 
-## Project Structure
+> **Public API:**  
+> `https://tds-project-1-m4e2gimuv-anish-sharmas-projects-38542d60.vercel.app/query`
 
+### Example Request (POST)
+
+```json
+{
+  "question": "What is the exam date for TDS Sep 2025?"
+}
 ```
-TDS_Project-1/
-├── src/
-├── data/
-├── tests/
-├── README.md
-└── requirements.txt
-```
-
-## Contributing
-
-Contributions are welcome! Please open issues or submit pull requests for improvements.
-
-## License
-
-This project is licensed under the MIT License.
