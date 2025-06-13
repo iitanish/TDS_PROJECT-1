@@ -3,7 +3,7 @@ description: "TDS Virtual TA Project Sample (but not the actual evaluation) Ques
 providers:
   - id: https
     config:
-      url: https://tds-project-1-chi.vercel.app/query # Replace this with your API endpoint
+      url: http://localhost:8000/api
       method: POST
       headers:
         Content-Type: application/json
@@ -24,7 +24,7 @@ defaultTest:
         method: POST
         headers:
           Content-Type: application/json
-          Authorization: eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIzZjEwMDEwMjFAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9.rKrvWqLsbA90xcrSvl-uz2X_Zbwf-LU5F8__49M_enA # Replace with your token
+          Authorization: eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIzZjEwMDEwMjFAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9.se23ERbfAv4ynbDbQOmSkja8QNw3UjbXcn7GNf0uYdo
         body: |
           {
             "model": "gpt-4o-mini",
